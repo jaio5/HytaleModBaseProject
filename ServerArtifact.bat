@@ -1,0 +1,6 @@
+@echo Iniciando el proceso de build del artefato de servidor...
+set "direction=D:\HYTModding\Programming\htjar\HytaleServer.jar"
+mvn install:install-file -Dfile="%direction%" -DgroupId="com.hypixel.hytale" -DartifactId="HytaleServer-parent" -Dversion="1.0-SNAPSHOT" -Dpackaging="jar"@echo Artefato de servidor construido con exito.
+@echo Presiona una tecla para salir...
+pause
+mvn install:install-file -Dfile=""D:\HYTModding\Programming\htjar\HytaleServer.jar"" -DgroupId="com.hypixel.hytale" -DartifactId="HytaleServer-parent" -Dversion="1.0-SNAPSHOT" -Dpackaging="jar"
